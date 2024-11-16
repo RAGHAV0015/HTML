@@ -1,0 +1,26 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+/* here we are applying the parent>child */
+div>p{
+    color: firebrick;
+}
+/* ansystor desends*/
+ul li{
+    color: darkblue;
+} 
+
+/* chainning methord*/
+li.done{
+    color: seagreen;
+
+}
+
+
+/* combining combiners*/
+/* ansystor and chaining methord */
+ul p.done{
+    font-size: 0.5rem;
+}
+
